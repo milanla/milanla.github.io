@@ -6,6 +6,7 @@ $pinksand: #ffcdb4;
 $lavender: #b9b5e8;
 $blush: #ffc5c3;
 $dark-lavender: #7069bc;
+
 $font-primary: "Open Sans", sans-serif;
 $font-secondary: "Roboto Mono", monospace;
 
@@ -25,20 +26,6 @@ body {
   }
 }
 
-header .container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 24px;
-}
-
-section {
-  padding-left: 24px;
-  padding-right: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 h1 {
   font-size: 32px;
   line-height: 1.5;
@@ -54,6 +41,25 @@ h2 {
   line-height: 1.5;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+header .container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+section {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .section-divider {
   max-width: 140px;
   margin: 0 auto;
@@ -62,12 +68,21 @@ h2 {
     width: 100%;
     height: auto;
   }
+
+  @media screen and (min-width: 700px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .intro {
   height: calc(100vh - 180px);
   padding-top: 48px;
   padding-bottom: 24px;
+
+  @media screen and (min-width: 700px) {
+    height: auto;
+  }
 }
 
 .about {
@@ -75,13 +90,12 @@ h2 {
   padding-top: 24px;
   padding-bottom: 24px;
 
-  p {
-    font-size: 18px;
-    line-height: 1.3;
+  @media screen and (min-width: 700px) {
+    height: auto;
+  }
 
-    &:nth-of-type(-n + 3) {
-      margin-top: 16px;
-    }
+  p:nth-of-type(-n + 3) {
+    margin-top: 16px;
   }
 
   a {
