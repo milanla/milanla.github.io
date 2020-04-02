@@ -105,7 +105,7 @@ section {
       padding-bottom: 60px; } }
 
 .intro {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 280px);
   padding-top: 48px;
   padding-bottom: 24px; }
   @media screen and (min-width: 700px) {
