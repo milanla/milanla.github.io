@@ -38,26 +38,21 @@ nav {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
 /* HTML5 display-role reset for older browsers */
-
 article,
 footer,
 header,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
   line-height: 1;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 ol,
 ul {
-  list-style: none;
-}
+  list-style: none; }
